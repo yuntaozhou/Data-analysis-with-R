@@ -13,5 +13,5 @@ subprojectone$DwT <- as.POSIXct(subprojectone$DwT)
 # creating Plot 2
 plot(subprojectone$Global_active_power~subprojectone$DwT, type="l",ylab="Global Active Power (kilowatts)", xlab="")
 # saving to PNG file
-dev.copy(png,file="plot2.png")
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
